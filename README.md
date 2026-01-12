@@ -8,6 +8,8 @@ This repository contains my Data Structures and Algorithms practice programs wri
 - Number Programs
 - Patterns
 - Prime & Armstrong Numbers
+- Decimal to binary && binary to decimal
+
 
 ## Tools Used
 - C++
