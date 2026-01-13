@@ -1,19 +1,12 @@
 #include<iostream>
 using namespace std;
-void print(char c){
-    if(c=='z'){
-        cout<<'a';
-    }
-    else{
-   cout<<c+1;
-    }
-    
+void change(int *a){
+    *a=20;
+    cout<<*a;
 }
 int main(){
- char c;
- cout<<"Enter your alphabet: ";
- cin>>c;
- print(c);
-
+    int a=10;
+    change(&a);
+    cout<<a;
     return 0;
 }
