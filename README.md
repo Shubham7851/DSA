@@ -9,6 +9,7 @@ This repository contains my Data Structures and Algorithms practice programs wri
 - Patterns
 - Prime & Armstrong Numbers
 - Decimal to binary && binary to decimal
+- Pointer
 
 
 ## Tools Used
