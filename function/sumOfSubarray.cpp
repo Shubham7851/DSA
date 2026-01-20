@@ -1,0 +1,30 @@
+#include<iostream>
+#include<climits>
+using namespace std;
+void print(int arr[],int n){
+    int max=INT_MIN;
+    for(int start=0;start<n;start++){
+        for(int end=start;end<n;end++){
+            int sum=0;
+            for(int i=start;i<=end;i++){
+                sum+=arr[i];
+            }
+                if(sum>max){
+                max=sum;
+            }
+        }
+    }
+    cout<<max;
+}
+int main(){
+ int n;
+ cin>>n;
+ int arr[n];
+ for(int i=0;i<n;i++){
+    cin>>arr[i];
+ }
+ print(arr,n);
+
+
+    return 0;
+}
